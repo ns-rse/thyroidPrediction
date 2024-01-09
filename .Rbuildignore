@@ -1,0 +1,9 @@
+$run_dev.*
+^.*\.Rproj$
+^.here$
+^README\.Rmd$
+^\.Rproj\.user$
+^\.pre-commit-config\.yaml$
+^data-raw$
+^dev$
+dev_history.R
