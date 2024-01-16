@@ -16,14 +16,18 @@ knitr::opts_chunk$set(
 # thyroidPrediction
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-thyroidPrediction is a [shiny](http://shiny.rstudio.com/) application developed using the [Golem package](https://engineering-shiny.org/index.html) for predicting the risk of Thyroid Cancer in patients based on a range of models.
+`thyroidPrediction` is a [hiny](http://shiny.rstudio.com/) application developed using the [Golem
+package](https://engineering-shiny.org/index.html) for predicting the risk of Thyroid Cancer in patients based on a
+range of models.
+
 ## Installation
 
 You can install the development version of thyroidPrediction like so:
 
-``` r
+```{r install}
 library(devtools)
 devtools::install_github("ns-rse/thyroidPrediction")
 ```
@@ -43,12 +47,5 @@ What is special about using `README.Rmd` instead of just `README.md`? You can in
 summary(cars)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy
+for this.
