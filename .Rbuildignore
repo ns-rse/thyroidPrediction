@@ -6,4 +6,6 @@ $run_dev.*
 ^\.pre-commit-config\.yaml$
 ^data-raw$
 ^dev$
+^renv$
+^renv\.lock$
 dev_history.R

@@ -7,11 +7,27 @@ Authors@R:
            role = c("aut", "cre"),
            email = "n.shephard@sheffield.ac.uk")
 Description: A Shiny application that uses a range of predictive models to asses patient characteristics for risk of Thyroid Cancer.
+URL: https://github.com/ns-rse/thyroidPrediction/
+BugReports: https://github.com/ns-rse/thyroidPrediction/issues
 License: `use_gpl3_license()`
 Imports:
     config (>= 0.3.2),
     golem (>= 0.4.1),
     shiny (>= 1.8.0)
+Suggests:
+    attachment,
+    covrpage,
+    desc,
+    devtools,
+    languageserver,
+    rhub,
+    rsconnect,
+    rstudioapi,
+    spelling,
+    testthat (>= 3.0.0),
+    usethis
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
+Language: en-US
