@@ -2,7 +2,7 @@
 # R specific hooks: https://github.com/lorenzwalthert/precommit
 repos:
   - repo: https://github.com/lorenzwalthert/precommit
-    rev: v0.3.2.9027
+    rev: v0.4.0
     hooks:
     # - id: style-files
     #   args: [--style_pkg=styler, --style_fun=tidyverse_style]
@@ -82,7 +82,7 @@ repos:
         args: ["-L fallow"]
 
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.11.0
+    rev: v0.12.1
     hooks:
       - id: markdownlint-cli2
         args: []
